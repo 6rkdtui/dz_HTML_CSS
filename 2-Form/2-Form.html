@@ -8,29 +8,33 @@
   <body>
     <main>
       <h1>Регистрация</h1>
-      <span
-        >Уже есть аккаунт?
+      <div>
+        Уже есть аккаунт?
         <a href="#">Войти</a>
         <form action="#">
           <div>
             <input type="text" placeholder="Компания" />
           </div>
-          <span
-            ><input
-              type="text"
-              name="firstName"
-              id="firstName"
-              placeholder="Имя"
-              required
-            />
-            <input
-              type="text"
-              name="lasttName"
-              id="lasttName"
-              placeholder="Фамилия"
-              required
-            />
-          </span>
+          <div>
+            <div>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="Имя"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                name="lasttName"
+                id="lasttName"
+                placeholder="Фамилия"
+                required
+              />
+            </div>
+          </div>
           <div>
             <input
               type="email"
@@ -42,17 +46,19 @@
           </div>
           <button>Зарегистрироваться</button>
           <div>
-            <input
-              type="checkbox"
-              name="usage_conditions"
-              id="usage_conditions"
-              required
-            />
+            <div>
+              <input
+                type="checkbox"
+                name="usage_conditions"
+                id="usage_conditions"
+                required
+              />
+            </div>
             <label for="usage_conditions">Я прочитал и принимаю</label>
             <a href="#">Условия использования</a>
           </div>
         </form>
-      </span>
+      </div>
     </main>
   </body>
 </html>
