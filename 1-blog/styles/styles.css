@@ -41,9 +41,12 @@ footer a {
     font-size: 18px;
 }
 
+.search {
+    margin: 0 0 69px 0;
+}
+
 .search input{
     background-color: #1F293799;
-    margin: 0 0 69px 0;
     border: none;
     border-radius: 100px;
     padding: 9px 128px 12px 49px;
@@ -76,6 +79,10 @@ footer a {
 
 .imagePC {
     margin: 0 0 69px 0;
+    max-width: 896px;
+    max-height: 594px;
+    height: auto;
+    width: auto;
 }
 
 .textUp {
