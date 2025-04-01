@@ -35,6 +35,9 @@ footer a {
 .myBlogIn {
     font-weight: 600;
     font-size: 18px;
+    position: absolute;
+    top: 6px;
+    left: 12px;
 }
 
 .myBlog {
@@ -104,6 +107,10 @@ footer a {
 
 .textDown p:nth-child(1) {
     margin: 0 0 30px 0;
+}
+
+.linkMyBlog {
+    position: relative;
 }
 
 
