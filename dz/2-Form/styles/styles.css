@@ -1,0 +1,55 @@
+body {
+    background-color: #FFA5A5;
+}
+
+main {
+    background-color: #FFFEFE;
+}
+
+h1 {
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+h2 {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+a {
+    color: #089FE0;
+}
+
+input {
+    background: #F5F5F5;
+    color: #333333;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    font-style: italic;
+}
+
+button {
+    background-color: #089FE0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color:#FFFFFF;
+}
+
+label {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+}
